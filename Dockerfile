@@ -5,6 +5,8 @@ RUN apk -v --update add \
         py-pip \
         groff \
         less \
+        jq \
+        git \
         mailcap \
         && \
     pip install --upgrade awscli s3cmd python-magic && \
